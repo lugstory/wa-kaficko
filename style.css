@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.app {
+    max-width: 420px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.drink {
+    background: white;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 18px;
+    background: #6b4f4f;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+button:active {
+    background: #503737;
+}
+
+#message {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.drink {
+    background: white;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.drink-name {
+    font-size: 16px;
+    margin-right: 8px;
+    flex-shrink: 0;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+}
+
+.counter input {
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    height: 32px;
+}
+
+.counter button {
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    background: #6b4f4f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    line-height: 1;
+}
+
+.counter button:active {
+    background: #503737;
+}
